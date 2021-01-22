@@ -137,6 +137,8 @@ const init = function () {
   bookmarksView.addHandlerRendererLoad(controlBookmarks);
 
   addRecipeView.addHandlerGetFormData(controlAddRecipe);
+
+  console.log('Welcome to the application!');
 };
 
 init();
